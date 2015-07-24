@@ -5,12 +5,12 @@ var express = require('express')
   , osc = require('osc-min')
     udp = require('dgram').createSocket('udp4');
 
-var port = 8000;
+var port = 80;
 var socketIOPort = 8001;
 var bacterias = {};
 
 var OSC_HOST = 'localhost';
-var OSC_PORT = 3333;
+var OSC_PORT = 5555;
 
 setInterval(timeoutBacterias, 1000);
 var idsCounter = 0;

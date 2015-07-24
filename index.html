@@ -200,7 +200,7 @@
 	var angle = 2 * Math.random() * Math.PI;
 
 
-	socket = io.connect('http://192.168.0.102:8000');            
+	socket = io.connect('http://192.168.88.254:80');            
 	setInterval(sendUpdate, 1000);
 	var newColor = jQuery.Color({hue: 360 * Math.random(), saturation: 1, lightness: 0.5});
 	updateColor(newColor);
